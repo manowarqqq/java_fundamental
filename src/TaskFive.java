@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 public class TaskFive {
  // Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.
@@ -46,7 +46,7 @@ public class TaskFive {
                  break;
          }
      } else
-         System.out.println("Вы ввели неправильное число");
+         System.out.println("Некорректные данные");
 
      scan.close();
  }
