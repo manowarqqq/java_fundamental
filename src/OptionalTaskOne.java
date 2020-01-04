@@ -14,7 +14,7 @@ public class OptionalTaskOne {
         }
         System.out.println(Arrays.toString(array));
 
-        //  Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.
+        // 1. Найти самое короткое и самое длинное число. Вывести найденные числа и их длину. (Самое маленькое число является самим коротким)
         int min = array[0];
         for (int i = 0; i < array.length; i++) {
             if (min > array[i]) {
